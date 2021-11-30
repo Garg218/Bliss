@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link href="contactcss.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Us</h1>
+
+      <div class="contact-box">
+        <div class="contact-left">
+          <h2> Send your review </h2>
+<form  onsubmit="myFunction()">
+<div class="input-row">
+<div class="input-group">
+<label>Name</label>
+<input type="text" required placeholder="Enter your name" autofocus autocomplete="off">
+        </div>
+
+<div class="input-group">
+<label>Mobile Number</label>
+<input type="tel"   required  maxlength="10" minlength="10" autofocus autocomplete="off" >
+        </div>
+</div>
+<div class="input-row">
+<div class="input-group">
+<label>Email</label>
+<input type="email" placeholder="Enter your mail-id"  autofocus autocomplete="off" required >
+        </div>
+
+<div class="input-group">
+<label>Subject</label>
+<input type="text" autofocus autocomplete="off" >
+        </div>
+</div>
+<label>Message</label>
+<textarea rows="2"    placeholder="Your Message..." minlength="20" autofocus autocomplete="off"  required ></textarea>
+
+<button type="submit">SEND</button>
+
+
+
+
+</form>
+<script>
+function myFunction() {
+  alert("Your message has been recorded.  Thanks for the feedback");
+}
+</script>
+</div>
+
+
+        <div class="contact-right">
+          <h2>Reach Us</h2>
+
+<table>
+<tr>
+<td>Email</td>
+<td>bliss@gmail.com</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>+1 013 234 3456</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>D-23, Civil lines road<br>
+Uttar Pradesh 243005</td>
+</tr>
+
+</table>
+
+
+        </div>
+
+      </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+margin: 0;
+padding: 0;
+}
+.search-box{
+position: absolute;
+top: 95.5%;  
+left: 50%;
+transform: translate(-50%,-50%);
+background: DarkSlateBlue;
+height: 40px;
+border-radius:0px;
+padding:10px;
+
+}
+.search-box:hover > .search-txt{
+width: 265px;
+padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+padding: 0 4px;
+}
+.search-btn{
+float:right;
+height: 40px;
+display: flex;
+
+}
+.search-txt{
+border:none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+color: white;
+  width:0px;
+font-size:16px;
+transition: 0.8s;
+}
